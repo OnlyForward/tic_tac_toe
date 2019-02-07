@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">крестики нолики</string>
+    <string name="register">зарегестрироваться</string>
+    <string name="name_room">Введите название комнаты</string>
+    <string name="create_room">Создать</string>
+    <string name="title_activity_general">GeneralActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="without_register">без регистрации</string>
+</resources>

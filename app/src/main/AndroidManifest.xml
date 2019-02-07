@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="shibanov.tic_tac_toe">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground_tic_tac"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:noHistory="true"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".PlayGame"
+            android:parentActivityName=".GeneralActivity">
+        </activity>
+        <activity
+            android:name=".GeneralActivity"
+            android:label="@string/title_activity_general"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".SettingsActivity"
+            android:parentActivityName=".SettingsActivity">
+        </activity>
+    </application>
+
+</manifest>
